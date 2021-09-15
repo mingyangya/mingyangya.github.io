@@ -1,6 +1,6 @@
 # 我的博客
 
-博客地址：[传送门](http://mingyangya.io)
+博客地址：[传送门](http://mingyangya.github.io)
 
 # 网址导航
 
