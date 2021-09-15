@@ -19,43 +19,6 @@
 <figure class="highlight css"><table><tr><td class="code"><pre><span class="line"><span class="selector-class">.trangle</span> &#123;</span><br><span class="line">  <span class="attribute">width</span>: <span class="number">0</span>;</span><br><span class="line">  <span class="attribute">height</span>: <span class="number">0</span>;</span><br><span class="line">  <span class="attribute">border</span>: <span class="number">20px</span> solid transparent;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="selector-class">.trangle</span><span class="selector-attr">[direction=top]</span> &#123;</span><br><span class="line">  <span class="attribute">border-bottom-color</span>: red;</span><br><span class="line">  <span class="attribute">border-top-width</span>: <span class="number">0</span>;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="selector-class">.trangle</span><span class="selector-attr">[direction=top-left]</span>, <span class="selector-class">.trangle</span><span class="selector-attr">[direction=left-top]</span> &#123;</span><br><span class="line">  <span class="attribute">border-top-color</span>: red;</span><br><span class="line">  <span class="attribute">border-bottom-width</span>: <span class="number">0</span>;</span><br><span class="line">  -webkit-<span class="attribute">transform</span>: <span class="built_in">rotate</span>(<span class="number">135deg</span>);</span><br><span class="line">          <span class="attribute">transform</span>: <span class="built_in">rotate</span>(<span class="number">135deg</span>);</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="selector-class">.trangle</span><span class="selector-attr">[direction=right]</span> &#123;</span><br><span class="line">  <span class="attribute">border-left-color</span>: red;</span><br><span class="line">  <span class="attribute">border-right-width</span>: <span class="number">0</span>;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="selector-class">.trangle</span><span class="selector-attr">[direction=bottom]</span> &#123;</span><br><span class="line">  <span class="attribute">border-top-color</span>: red;</span><br><span class="line">  <span class="attribute">border-bottom-width</span>: <span class="number">0</span>;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="selector-class">.trangle</span><span class="selector-attr">[direction=left]</span> &#123;</span><br><span class="line">  <span class="attribute">border-right-color</span>: red;</span><br><span class="line">  <span class="attribute">border-left-width</span>: <span class="number">0</span>;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="selector-class">.trangle</span><span class="selector-attr">[direction=top-left]</span>, <span class="selector-class">.trangle</span><span class="selector-attr">[direction=left-top]</span> &#123;</span><br><span class="line">  <span class="attribute">border-top-color</span>: red;</span><br><span class="line">  <span class="attribute">border-bottom-width</span>: <span class="number">0</span>;</span><br><span class="line">  -webkit-<span class="attribute">transform</span>: <span class="built_in">rotate</span>(<span class="number">135deg</span>);</span><br><span class="line">          <span class="attribute">transform</span>: <span class="built_in">rotate</span>(<span class="number">135deg</span>);</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="selector-class">.trangle</span><span class="selector-attr">[direction=top-right]</span>, <span class="selector-class">.trangle</span><span class="selector-attr">[direction=left-right]</span> &#123;</span><br><span class="line">  <span class="attribute">border-top-color</span>: red;</span><br><span class="line">  <span class="attribute">border-bottom-width</span>: <span class="number">0</span>;</span><br><span class="line">  -webkit-<span class="attribute">transform</span>: <span class="built_in">rotate</span>(<span class="number">225deg</span>);</span><br><span class="line">          <span class="attribute">transform</span>: <span class="built_in">rotate</span>(<span class="number">225deg</span>);</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="selector-class">.trangle</span><span class="selector-attr">[direction=bottom-left]</span>, <span class="selector-class">.trangle</span><span class="selector-attr">[direction=left-bottom]</span> &#123;</span><br><span class="line">  <span class="attribute">border-bottom-color</span>: red;</span><br><span class="line">  <span class="attribute">border-top-width</span>: <span class="number">0</span>;</span><br><span class="line">  -webkit-<span class="attribute">transform</span>: <span class="built_in">rotate</span>(<span class="number">225deg</span>);</span><br><span class="line">          <span class="attribute">transform</span>: <span class="built_in">rotate</span>(<span class="number">225deg</span>);</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="selector-class">.trangle</span><span class="selector-attr">[direction=bottom-right]</span>, <span class="selector-class">.trangle</span><span class="selector-attr">[direction=right-bottom]</span> &#123;</span><br><span class="line">  <span class="attribute">border-bottom-color</span>: red;</span><br><span class="line">  <span class="attribute">border-top-width</span>: <span class="number">0</span>;</span><br><span class="line">  -webkit-<span class="attribute">transform</span>: <span class="built_in">rotate</span>(<span class="number">135deg</span>);</span><br><span class="line">          <span class="attribute">transform</span>: <span class="built_in">rotate</span>(<span class="number">135deg</span>);</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>]]></content>
   </entry>
   <entry>
-    <title>hexo同步到github</title>
-    <url>/2017/07/10/hexo%E5%90%8C%E6%AD%A5%E5%88%B0github/</url>
-    <content><![CDATA[<p>本文介绍hexo如何与github结合打造个人博客，其中涉及github、hexo的相关配置。分享给大家共同学习、交流。<br><a href="https://mingyangya.github.io/">演示地址</a></p>
-<span id="more"></span>
-<h2 id="hexo相关配置"><a href="#hexo相关配置" class="headerlink" title="hexo相关配置"></a>hexo相关配置</h2><p>修改配置文件中deploy</p>
-<ul>
-<li><p>版本3.0一下</p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">deploy: </span><br><span class="line"> <span class="built_in">type</span>: github</span><br><span class="line"> repository: git@github.com:your-github/your-github.github.io.git</span><br><span class="line"> branch: master</span><br></pre></td></tr></table></figure>
-</li>
-<li><p>版本3.0以及之上</p>
-</li>
-</ul>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">deploy: </span><br><span class="line"> <span class="built_in">type</span>: git</span><br><span class="line"> repository: git@github.com:your-github/your-github.github.io.git</span><br><span class="line"> branch: master</span><br></pre></td></tr></table></figure>
-
-<p>安装 hexo-deployer</p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ npm install hexo-deployer-git --save</span><br></pre></td></tr></table></figure>
-
-<h2 id="Github相关设置"><a href="#Github相关设置" class="headerlink" title="Github相关设置"></a>Github相关设置</h2><ul>
-<li><p>注册github账号（自行百度搜索）</p>
-</li>
-<li><p>设置ssh</p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">git config --global user.name <span class="string">&quot;your-github&quot;</span></span><br><span class="line">git config --global user.email <span class="string">&quot;your-github@163.com&quot;</span></span><br><span class="line">ssh-keygen -t rsa -C <span class="string">&quot;haomingyangchn@163.com&quot;</span></span><br></pre></td></tr></table></figure>
-</li>
-<li><p>github上配置秘钥<br>找到c盘.ssh文件夹下的id_rsa.pub，将文件内容拷贝到github中的setting的ssh下面</p>
-</li>
-</ul>
-<h2 id="同步文件到github"><a href="#同步文件到github" class="headerlink" title="同步文件到github"></a>同步文件到github</h2><ul>
-<li>生成静态文件并发布</li>
-</ul>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo generate</span><br><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
-
-]]></content>
-      <tags>
-        <tag>hexo</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>什么是async</title>
     <url>/2021/09/01/async-function/</url>
     <content><![CDATA[<h1 id="async函数是使用async关键字声明的函数"><a href="#async函数是使用async关键字声明的函数" class="headerlink" title="async函数是使用async关键字声明的函数"></a>async函数是使用async关键字声明的函数</h1><p>async函数是AsyncFunction构造函数的实例， 并且其中允许使用await关键字。async和await关键字让我们可以用一种更简洁的方式写出基于Promise的异步行为，而无需刻意地链式调用promise。 </p>
@@ -113,6 +76,43 @@
 ]]></content>
       <tags>
         <tag>javascript</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>hexo同步到github</title>
+    <url>/2017/07/10/hexo%E5%90%8C%E6%AD%A5%E5%88%B0github/</url>
+    <content><![CDATA[<p>本文介绍hexo如何与github结合打造个人博客，其中涉及github、hexo的相关配置。分享给大家共同学习、交流。<br><a href="https://mingyangya.github.io/">演示地址</a></p>
+<span id="more"></span>
+<h2 id="hexo相关配置"><a href="#hexo相关配置" class="headerlink" title="hexo相关配置"></a>hexo相关配置</h2><p>修改配置文件中deploy</p>
+<ul>
+<li><p>版本3.0一下</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">deploy: </span><br><span class="line"> <span class="built_in">type</span>: github</span><br><span class="line"> repository: git@github.com:your-github/your-github.github.io.git</span><br><span class="line"> branch: master</span><br></pre></td></tr></table></figure>
+</li>
+<li><p>版本3.0以及之上</p>
+</li>
+</ul>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">deploy: </span><br><span class="line"> <span class="built_in">type</span>: git</span><br><span class="line"> repository: git@github.com:your-github/your-github.github.io.git</span><br><span class="line"> branch: master</span><br></pre></td></tr></table></figure>
+
+<p>安装 hexo-deployer</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ npm install hexo-deployer-git --save</span><br></pre></td></tr></table></figure>
+
+<h2 id="Github相关设置"><a href="#Github相关设置" class="headerlink" title="Github相关设置"></a>Github相关设置</h2><ul>
+<li><p>注册github账号（自行百度搜索）</p>
+</li>
+<li><p>设置ssh</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">git config --global user.name <span class="string">&quot;your-github&quot;</span></span><br><span class="line">git config --global user.email <span class="string">&quot;your-github@163.com&quot;</span></span><br><span class="line">ssh-keygen -t rsa -C <span class="string">&quot;haomingyangchn@163.com&quot;</span></span><br></pre></td></tr></table></figure>
+</li>
+<li><p>github上配置秘钥<br>找到c盘.ssh文件夹下的id_rsa.pub，将文件内容拷贝到github中的setting的ssh下面</p>
+</li>
+</ul>
+<h2 id="同步文件到github"><a href="#同步文件到github" class="headerlink" title="同步文件到github"></a>同步文件到github</h2><ul>
+<li>生成静态文件并发布</li>
+</ul>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo generate</span><br><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
+
+]]></content>
+      <tags>
+        <tag>hexo</tag>
       </tags>
   </entry>
   <entry>
