@@ -240,6 +240,9 @@
 <li><p>Image preview</p>
 <p>图片预览</p>
 </li>
+<li><p>GitLens</p>
+<p>查看Git相关信息</p>
+</li>
 <li><p>eslint</p>
 <p>js校验<br><img src="/2021/09/15/vscode/eslint.jpg"></p>
 </li>
@@ -257,6 +260,23 @@
 </li>
 <li><p>vscode-icons</p>
 <p>文件图标<br><img src="/2021/09/15/vscode/screenshot.gif"></p>
+</li>
+<li><p>Code Spell Checker </p>
+<p>检查单词拼写</p>
+</li>
+</ul>
+<h2 id="快捷键"><a href="#快捷键" class="headerlink" title="快捷键"></a>快捷键</h2><ul>
+<li><p>编辑器与窗口</p>
+<p>ctrl+shift+p： 打开命令面板</p>
+<p>ctrl+p： 切换文件（输入文件名称）</p>
+<p>ctrl+j：切换终端显隐</p>
+</li>
+<li><p>代码编辑</p>
+<p>ctrl+d：选中下一个相同内容</p>
+<p>ctrl+shift+l：选中所有相同内容</p>
+<p>ctrl+F：查找内容</p>
+<p>ctrl+shit+f：在整个文件夹中查找内容</p>
+<p>ctrl+shift+k：删除光标选择区域内的所有行</p>
 </li>
 </ul>
 ]]></content>
