@@ -47,25 +47,20 @@
   };
 </script>
 
-  <meta name="description" content="本文介绍使用@vant&#x2F;cli构建vue2组件库">
+  <meta name="description" content="本文介绍将一个数字使用千位分隔的形式格式化。 需要将num&#x3D;123456789,格式化为123,456,789 可用如下两种方法实现">
 <meta property="og:type" content="article">
-<meta property="og:title" content="vue-components">
-<meta property="og:url" content="https://mingyangya.github.io/2021/09/14/vue-components/index.html">
+<meta property="og:title" content="js实现数字千位分隔">
+<meta property="og:url" content="https://mingyangya.github.io/2017/11/06/js%E5%AE%9E%E7%8E%B0%E6%95%B0%E5%AD%97%E5%8D%83%E4%BD%8D%E5%88%86%E9%9A%94/index.html">
 <meta property="og:site_name" content="名扬呀的博客">
-<meta property="og:description" content="本文介绍使用@vant&#x2F;cli构建vue2组件库">
+<meta property="og:description" content="本文介绍将一个数字使用千位分隔的形式格式化。 需要将num&#x3D;123456789,格式化为123,456,789 可用如下两种方法实现">
 <meta property="og:locale" content="zh_CN">
-<meta property="og:image" content="https://mingyangya.github.io/2021/09/14/vue-components/1.jpg">
-<meta property="og:image" content="https://mingyangya.github.io/2021/09/14/vue-components/2.jpg">
-<meta property="og:image" content="https://mingyangya.github.io/2021/09/14/vue-components/3.jpg">
-<meta property="og:image" content="https://mingyangya.github.io/2021/09/14/vue-components/4.jpg">
-<meta property="article:published_time" content="2021-09-14T10:40:36.000Z">
-<meta property="article:modified_time" content="2021-11-16T02:54:47.490Z">
+<meta property="article:published_time" content="2017-11-05T16:00:00.000Z">
+<meta property="article:modified_time" content="2021-11-16T02:54:11.666Z">
 <meta property="article:author" content="名扬呀">
-<meta property="article:tag" content="vue">
+<meta property="article:tag" content="javascript">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:image" content="https://mingyangya.github.io/2021/09/14/vue-components/1.jpg">
 
-<link rel="canonical" href="https://mingyangya.github.io/2021/09/14/vue-components/">
+<link rel="canonical" href="https://mingyangya.github.io/2017/11/06/js%E5%AE%9E%E7%8E%B0%E6%95%B0%E5%AD%97%E5%8D%83%E4%BD%8D%E5%88%86%E9%9A%94/">
 
 
 <script id="page-configurations">
@@ -77,7 +72,7 @@
   };
 </script>
 
-  <title>vue-components | 名扬呀的博客</title>
+  <title>js实现数字千位分隔 | 名扬呀的博客</title>
   
 
 
@@ -214,7 +209,7 @@
   
   
   <article itemscope itemtype="http://schema.org/Article" class="post-block " lang="zh-CN">
-    <link itemprop="mainEntityOfPage" href="https://mingyangya.github.io/2021/09/14/vue-components/">
+    <link itemprop="mainEntityOfPage" href="https://mingyangya.github.io/2017/11/06/js%E5%AE%9E%E7%8E%B0%E6%95%B0%E5%AD%97%E5%8D%83%E4%BD%8D%E5%88%86%E9%9A%94/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="image" content="/uploads/avatar.png">
@@ -227,7 +222,7 @@
     </span>
       <header class="post-header">
         <h1 class="post-title" itemprop="name headline">
-          vue-components
+          js实现数字千位分隔
         </h1>
 
         <div class="post-meta">
@@ -237,14 +232,14 @@
               </span>
               <span class="post-meta-item-text">发表于</span>
 
-              <time title="创建时间：2021-09-14 18:40:36" itemprop="dateCreated datePublished" datetime="2021-09-14T18:40:36+08:00">2021-09-14</time>
+              <time title="创建时间：2017-11-06 00:00:00" itemprop="dateCreated datePublished" datetime="2017-11-06T00:00:00+08:00">2017-11-06</time>
             </span>
               <span class="post-meta-item">
                 <span class="post-meta-item-icon">
                   <i class="fa fa-calendar-check-o"></i>
                 </span>
                 <span class="post-meta-item-text">更新于</span>
-                <time title="修改时间：2021-11-16 10:54:47" itemprop="dateModified" datetime="2021-11-16T10:54:47+08:00">2021-11-16</time>
+                <time title="修改时间：2021-11-16 10:54:11" itemprop="dateModified" datetime="2021-11-16T10:54:11+08:00">2021-11-16</time>
               </span>
             <span class="post-meta-item">
               <span class="post-meta-item-icon">
@@ -259,7 +254,7 @@
             </span>
 
           
-            <span id="/2021/09/14/vue-components/" class="post-meta-item leancloud_visitors" data-flag-title="vue-components" title="阅读次数">
+            <span id="/2017/11/06/js%E5%AE%9E%E7%8E%B0%E6%95%B0%E5%AD%97%E5%8D%83%E4%BD%8D%E5%88%86%E9%9A%94/" class="post-meta-item leancloud_visitors" data-flag-title="js实现数字千位分隔" title="阅读次数">
               <span class="post-meta-item-icon">
                 <i class="fa fa-eye"></i>
               </span>
@@ -274,8 +269,8 @@
       </span>
       <span class="post-meta-item-text">Valine：</span>
     
-    <a title="valine" href="/2021/09/14/vue-components/#comments" itemprop="discussionUrl">
-      <span class="post-comments-count valine-comment-count" data-xid="/2021/09/14/vue-components/" itemprop="commentCount"></span>
+    <a title="valine" href="/2017/11/06/js%E5%AE%9E%E7%8E%B0%E6%95%B0%E5%AD%97%E5%8D%83%E4%BD%8D%E5%88%86%E9%9A%94/#comments" itemprop="discussionUrl">
+      <span class="post-comments-count valine-comment-count" data-xid="/2017/11/06/js%E5%AE%9E%E7%8E%B0%E6%95%B0%E5%AD%97%E5%8D%83%E4%BD%8D%E5%88%86%E9%9A%94/" itemprop="commentCount"></span>
     </a>
   </span>
   
@@ -285,14 +280,14 @@
                 <i class="fa fa-file-word-o"></i>
               </span>
                 <span class="post-meta-item-text">本文字数：</span>
-              <span>2.3k</span>
+              <span>1.2k</span>
             </span>
             <span class="post-meta-item" title="阅读时长">
               <span class="post-meta-item-icon">
                 <i class="fa fa-clock-o"></i>
               </span>
                 <span class="post-meta-item-text">阅读时长 &asymp;</span>
-              <span>2 分钟</span>
+              <span>1 分钟</span>
             </span>
 
         </div>
@@ -304,22 +299,23 @@
     <div class="post-body" itemprop="articleBody">
 
       
-        <p>本文介绍使用@vant/cli构建vue2组件库</p>
+        <p>本文介绍将一个数字使用千位分隔的形式格式化。</p>
+<p>需要将num=123456789,格式化为123,456,789 可用如下两种方法实现</p>
 <span id="more"></span>
 
-<h1 id="快速开始"><a href="#快速开始" class="headerlink" title="快速开始"></a>快速开始</h1><p>执行命令构建项目</p>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">yarn create vant-cli-app</span><br></pre></td></tr></table></figure>
+<ul>
+<li>toLocalString</li>
+</ul>
+<figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">num.toLocaleString()</span><br></pre></td></tr></table></figure>
 
-<h1 id="手动安装"><a href="#手动安装" class="headerlink" title="手动安装"></a>手动安装</h1><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># 通过 npm 安装</span></span><br><span class="line">npm i @vant/cli -D</span><br><span class="line"></span><br><span class="line"><span class="comment"># 通过 yarn 安装</span></span><br><span class="line">yarn add @vant/cli --dev</span><br></pre></td></tr></table></figure>
+<ul>
+<li>for循环</li>
+</ul>
+<p>正序循环</p>
+<figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="keyword">function</span> <span class="title">format_str</span>(<span class="params">str</span>) </span>&#123;</span><br><span class="line">	<span class="comment">//将数字转化为字符串,并分为小数和整数部分</span></span><br><span class="line">    <span class="keyword">var</span> str = str.toString().split(<span class="string">&quot;.&quot;</span>),</span><br><span class="line">        integer = str[<span class="number">0</span>].split(<span class="string">&quot;&quot;</span>).reverse(),</span><br><span class="line">        decimal = str[<span class="number">1</span>],</span><br><span class="line">        j = <span class="number">0</span>,</span><br><span class="line">        arr = [],</span><br><span class="line">        result;</span><br><span class="line">	<span class="comment">//正序循环</span></span><br><span class="line">    <span class="keyword">for</span> (<span class="keyword">var</span> i = <span class="number">0</span>; i &lt; integer.length; i++) &#123;</span><br><span class="line">        arr.push(integer[i]);</span><br><span class="line">        <span class="comment">//每个三位添加一个&quot;,&quot;</span></span><br><span class="line">        <span class="keyword">if</span> (j === <span class="number">2</span> &amp;&amp; i !== integer.length - <span class="number">1</span>) &#123;</span><br><span class="line">            arr.push(<span class="string">&#x27;,&#x27;</span>);</span><br><span class="line">            j = -<span class="number">1</span>;</span><br><span class="line">        &#125;</span><br><span class="line">        j++;</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="comment">//反序</span></span><br><span class="line">    arr.reverse();</span><br><span class="line">    <span class="comment">//判断小数位是否存在</span></span><br><span class="line">    <span class="keyword">if</span> (decimal !== <span class="literal">undefined</span>) &#123;</span><br><span class="line">        arr.push(<span class="string">&quot;.&quot;</span> + decimal);</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="comment">//将数组转化为字符串</span></span><br><span class="line">    result = arr.join(<span class="string">&quot;&quot;</span>);</span><br><span class="line">    <span class="keyword">return</span> result;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
 
-<p>安装完成后，请将以下配置添加到 package.json 文件中</p>
-<figure class="highlight json"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br><span class="line">55</span><br><span class="line">56</span><br><span class="line">57</span><br><span class="line">58</span><br><span class="line">59</span><br><span class="line">60</span><br><span class="line">61</span><br></pre></td><td class="code"><pre><span class="line">&#123;</span><br><span class="line">  <span class="attr">&quot;name&quot;</span>: <span class="string">&quot;video-point&quot;</span>,</span><br><span class="line">  <span class="attr">&quot;version&quot;</span>: <span class="string">&quot;1.0.1&quot;</span>,</span><br><span class="line">  <span class="attr">&quot;description&quot;</span>: <span class="string">&quot;&quot;</span>,</span><br><span class="line">  <span class="attr">&quot;main&quot;</span>: <span class="string">&quot;lib/video-point.js&quot;</span>,</span><br><span class="line">  <span class="attr">&quot;style&quot;</span>: <span class="string">&quot;lib/index.css&quot;</span>,</span><br><span class="line">  <span class="attr">&quot;files&quot;</span>: [</span><br><span class="line">    <span class="string">&quot;lib&quot;</span>,</span><br><span class="line">    <span class="string">&quot;es&quot;</span></span><br><span class="line">  ],</span><br><span class="line">  <span class="attr">&quot;scripts&quot;</span>: &#123;</span><br><span class="line">    <span class="attr">&quot;dev&quot;</span>: <span class="string">&quot;vant-cli dev&quot;</span>,</span><br><span class="line">    <span class="attr">&quot;test&quot;</span>: <span class="string">&quot;vant-cli test&quot;</span>,</span><br><span class="line">    <span class="attr">&quot;lint&quot;</span>: <span class="string">&quot;vant-cli lint&quot;</span>,</span><br><span class="line">    <span class="attr">&quot;build&quot;</span>: <span class="string">&quot;vant-cli build&quot;</span>,</span><br><span class="line">    <span class="attr">&quot;release&quot;</span>: <span class="string">&quot;vant-cli release&quot;</span>,</span><br><span class="line">    <span class="attr">&quot;test:coverage&quot;</span>: <span class="string">&quot;open test/coverage/index.html&quot;</span>,</span><br><span class="line">    <span class="attr">&quot;build-site&quot;</span>: <span class="string">&quot;vant-cli build-site &amp;&amp; gh-pages -d site&quot;</span></span><br><span class="line">  &#125;,</span><br><span class="line">  <span class="attr">&quot;author&quot;</span>: <span class="string">&quot;mingyangya&quot;</span>,</span><br><span class="line">  <span class="attr">&quot;license&quot;</span>: <span class="string">&quot;MIT&quot;</span>,</span><br><span class="line">  <span class="attr">&quot;husky&quot;</span>: &#123;</span><br><span class="line">    <span class="attr">&quot;hooks&quot;</span>: &#123;</span><br><span class="line">      <span class="attr">&quot;pre-commit&quot;</span>: <span class="string">&quot;lint-staged&quot;</span>,</span><br><span class="line">      <span class="attr">&quot;commit-msg&quot;</span>: <span class="string">&quot;vant-cli commit-lint&quot;</span></span><br><span class="line">    &#125;</span><br><span class="line">  &#125;,</span><br><span class="line">  <span class="attr">&quot;lint-staged&quot;</span>: &#123;</span><br><span class="line">    <span class="attr">&quot;*.&#123;ts,tsx,js,jsx,vue&#125;&quot;</span>: <span class="string">&quot;eslint --fix&quot;</span>,</span><br><span class="line">    <span class="attr">&quot;*.&#123;vue,css,less,scss&#125;&quot;</span>: <span class="string">&quot;stylelint --fix&quot;</span></span><br><span class="line">  &#125;,</span><br><span class="line">  <span class="attr">&quot;peerDependencies&quot;</span>: &#123;</span><br><span class="line">    <span class="attr">&quot;vue&quot;</span>: <span class="string">&quot;^2.6.11&quot;</span>,</span><br><span class="line">    <span class="attr">&quot;vue-template-compiler&quot;</span>: <span class="string">&quot;^2.6.11&quot;</span></span><br><span class="line">  &#125;,</span><br><span class="line">  <span class="attr">&quot;devDependencies&quot;</span>: &#123;</span><br><span class="line">    <span class="attr">&quot;@vant/cli&quot;</span>: <span class="string">&quot;^2.0.0&quot;</span>,</span><br><span class="line">    <span class="attr">&quot;babel-plugin-import&quot;</span>: <span class="string">&quot;^1.13.0&quot;</span>,</span><br><span class="line">    <span class="attr">&quot;vue&quot;</span>: <span class="string">&quot;^2.6.11&quot;</span>,</span><br><span class="line">    <span class="attr">&quot;vue-template-compiler&quot;</span>: <span class="string">&quot;^2.6.11&quot;</span></span><br><span class="line">  &#125;,</span><br><span class="line">  <span class="attr">&quot;eslintConfig&quot;</span>: &#123;</span><br><span class="line">    <span class="attr">&quot;root&quot;</span>: <span class="literal">true</span>,</span><br><span class="line">    <span class="attr">&quot;extends&quot;</span>: [</span><br><span class="line">      <span class="string">&quot;@vant&quot;</span></span><br><span class="line">    ]</span><br><span class="line">  &#125;,</span><br><span class="line">  <span class="attr">&quot;stylelint&quot;</span>: &#123;</span><br><span class="line">    <span class="attr">&quot;extends&quot;</span>: [</span><br><span class="line">      <span class="string">&quot;@vant/stylelint-config&quot;</span></span><br><span class="line">    ]</span><br><span class="line">  &#125;,</span><br><span class="line">  <span class="attr">&quot;prettier&quot;</span>: &#123;</span><br><span class="line">    <span class="attr">&quot;singleQuote&quot;</span>: <span class="literal">true</span></span><br><span class="line">  &#125;,</span><br><span class="line">  <span class="attr">&quot;browserslist&quot;</span>: [</span><br><span class="line">    <span class="string">&quot;Chrome &gt;= 51&quot;</span>,</span><br><span class="line">    <span class="string">&quot;Android &gt;= 4.0&quot;</span>,</span><br><span class="line">    <span class="string">&quot;iOS &gt;= 8&quot;</span></span><br><span class="line">  ]</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-
-<p>更多细节参考：<a target="_blank" rel="noopener" href="https://www.npmjs.com/package/@vant/cli">文档</a></p>
-<h1 id="组件编写"><a href="#组件编写" class="headerlink" title="组件编写"></a>组件编写</h1><p>新建文件夹test-button,如下图：<br><img src="/2021/09/14/vue-components/1.jpg"><br>vue代码编写于index.vue中<br>demo文件夹中用于编写预览页面<br>README用于编写组件说明文档<br>test用来校验（可选）</p>
-<h1 id="运行"><a href="#运行" class="headerlink" title="运行"></a>运行</h1><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># yarn</span></span><br><span class="line">yarn run dev</span><br><span class="line"><span class="comment"># npm</span></span><br><span class="line">npm run dev</span><br><span class="line"></span><br><span class="line"><span class="comment"># 启动后</span></span><br><span class="line"><span class="comment"># Site running at:</span></span><br><span class="line"></span><br><span class="line"><span class="comment">#   Local:    http://localhost:8080/ </span></span><br><span class="line"></span><br><span class="line"><span class="comment"># ✔ Vant Cli</span></span><br><span class="line"><span class="comment">#   Compiled successfully in 2.50s</span></span><br></pre></td></tr></table></figure>
-<h1 id="预览"><a href="#预览" class="headerlink" title="预览"></a>预览</h1><p>浏览器输入 <a target="_blank" rel="noopener" href="http://localhost:8080/">http://localhost:8080</a><br><img src="/2021/09/14/vue-components/2.jpg"><br><img src="/2021/09/14/vue-components/3.jpg"><br><img src="/2021/09/14/vue-components/4.jpg"></p>
-
+<p>倒序循环</p>
+<figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="keyword">function</span> <span class="title">format_str</span>(<span class="params">str</span>) </span>&#123;</span><br><span class="line">	<span class="comment">//将数字转化为字符串,并分为小数和整数部分</span></span><br><span class="line">    <span class="keyword">var</span> str = str.toString().split(<span class="string">&quot;.&quot;</span>),</span><br><span class="line">        decimal = str[<span class="number">1</span>],</span><br><span class="line">        integer = str[<span class="number">0</span>],</span><br><span class="line">        j = <span class="number">0</span>,</span><br><span class="line">        arr = [],</span><br><span class="line">        result;</span><br><span class="line">    <span class="comment">//将数组从后向前循环</span></span><br><span class="line">    <span class="keyword">for</span> (<span class="keyword">var</span> i = integer.length - <span class="number">1</span>; i &gt;= <span class="number">0</span>; i--) &#123;</span><br><span class="line">        arr.unshift(integer[i]);</span><br><span class="line">        <span class="comment">//每个三位添加一个&quot;,&quot;</span></span><br><span class="line">        <span class="keyword">if</span> (j === <span class="number">2</span> &amp;&amp; i !== <span class="number">0</span>) &#123;</span><br><span class="line">            arr.unshift(<span class="string">&#x27;,&#x27;</span>);</span><br><span class="line">            j = -<span class="number">1</span>;</span><br><span class="line">        &#125;</span><br><span class="line">        j++;</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="comment">//判断小数位是否存在</span></span><br><span class="line">    <span class="keyword">if</span> (decimal !== <span class="literal">undefined</span>) &#123;</span><br><span class="line">        arr.push(<span class="string">&quot;.&quot;</span> + decimal);</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="comment">//将数组转化为字符串</span></span><br><span class="line">    result = arr.join(<span class="string">&quot;&quot;</span>)</span><br><span class="line">    <span class="keyword">return</span> result;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
     </div>
 
     
@@ -334,7 +330,7 @@
   </li>
   <li class="post-copyright-link">
     <strong>本文链接：</strong>
-    <a href="https://mingyangya.github.io/2021/09/14/vue-components/" title="vue-components">https://mingyangya.github.io/2021/09/14/vue-components/</a>
+    <a href="https://mingyangya.github.io/2017/11/06/js%E5%AE%9E%E7%8E%B0%E6%95%B0%E5%AD%97%E5%8D%83%E4%BD%8D%E5%88%86%E9%9A%94/" title="js实现数字千位分隔">https://mingyangya.github.io/2017/11/06/js实现数字千位分隔/</a>
   </li>
   <li class="post-copyright-license">
     <strong>版权声明： </strong>本博客所有文章除特别声明外，均采用 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" rel="noopener" target="_blank"><i class="fa fa-fw fa-creative-commons"></i>BY-NC-SA</a> 许可协议。转载请注明出处！
@@ -345,7 +341,7 @@
 
       <footer class="post-footer">
           <div class="post-tags">
-              <a href="/tags/vue/" rel="tag"># vue</a>
+              <a href="/tags/javascript/" rel="tag"># javascript</a>
           </div>
 
         
@@ -354,12 +350,12 @@
         
     <div class="post-nav">
       <div class="post-nav-item">
-    <a href="/2021/09/10/css-triangle/" rel="prev" title="css实现实心三角形">
-      <i class="fa fa-chevron-left"></i> css实现实心三角形
+    <a href="/2017/08/29/%E5%9B%BE%E7%89%87%E6%97%A0%E7%BC%9D%E6%BB%9A%E5%8A%A8/" rel="prev" title="jquery实现图片无缝滚动">
+      <i class="fa fa-chevron-left"></i> jquery实现图片无缝滚动
     </a></div>
       <div class="post-nav-item">
-    <a href="/2021/09/15/vscode/" rel="next" title="vscode的使用">
-      vscode的使用 <i class="fa fa-chevron-right"></i>
+    <a href="/2020/07/13/vue-time-line-npm%E7%9A%84%E4%BD%BF%E7%94%A8/" rel="next" title="vue-time-line-npm的使用">
+      vue-time-line-npm的使用 <i class="fa fa-chevron-right"></i>
     </a></div>
     </div>
       </footer>
@@ -421,7 +417,6 @@
 
       <!--noindex-->
       <div class="post-toc-wrap sidebar-panel">
-          <div class="post-toc motion-element"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#%E5%BF%AB%E9%80%9F%E5%BC%80%E5%A7%8B"><span class="nav-number">1.</span> <span class="nav-text">快速开始</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#%E6%89%8B%E5%8A%A8%E5%AE%89%E8%A3%85"><span class="nav-number">2.</span> <span class="nav-text">手动安装</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#%E7%BB%84%E4%BB%B6%E7%BC%96%E5%86%99"><span class="nav-number">3.</span> <span class="nav-text">组件编写</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#%E8%BF%90%E8%A1%8C"><span class="nav-number">4.</span> <span class="nav-text">运行</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#%E9%A2%84%E8%A7%88"><span class="nav-number">5.</span> <span class="nav-text">预览</span></a></li></ol></div>
       </div>
       <!--/noindex-->
 
