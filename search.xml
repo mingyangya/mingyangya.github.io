@@ -134,20 +134,6 @@
       </tags>
   </entry>
   <entry>
-    <title>收藏夹</title>
-    <url>/2021/11/16/bookmark/</url>
-    <content><![CDATA[<p>一些好用的导航</p>
-<h1 id="Github"><a href="#Github" class="headerlink" title="Github"></a><a href="https://github.com/">Github</a></h1><p>Millions of developers and companies build, ship, and maintain their software on GitHub—the largest and most advanced development platform in the world.</p>
-<p><img src="/2021/11/16/bookmark/github.png" alt="Github"></p>
-]]></content>
-      <categories>
-        <category>收藏夹</category>
-      </categories>
-      <tags>
-        <tag>收藏</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>css实现实心三角形</title>
     <url>/2021/09/10/css-triangle/</url>
     <content><![CDATA[<p>本文使用css来实现各个朝向的等腰三角形，涉及知识点border,且通过transform中的rotate来改箭头的朝向。来看一下效果吧。<br><img src="/2021/09/10/css-triangle/css-triangle.jpg"></p>
@@ -220,7 +206,7 @@
 <li><p>注册github账号（自行百度搜索）</p>
 </li>
 <li><p>设置ssh</p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">git config --global user.name <span class="string">&quot;your-github&quot;</span></span><br><span class="line">git config --global user.email <span class="string">&quot;your-github@163.com&quot;</span></span><br><span class="line">ssh-keygen -t rsa -C <span class="string">&quot;haomingyangchn@163.com&quot;</span></span><br></pre></td></tr></table></figure>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">git config --global user.name <span class="string">&quot;your-github&quot;</span></span><br><span class="line">git config --global user.email <span class="string">&quot;your-github@xx.com&quot;</span></span><br><span class="line">ssh-keygen -t rsa -C <span class="string">&quot;xxx@xx.com&quot;</span></span><br></pre></td></tr></table></figure>
 </li>
 <li><p>github上配置秘钥</p>
 </li>
@@ -229,7 +215,7 @@
 <h2 id="同步文件到github"><a href="#同步文件到github" class="headerlink" title="同步文件到github"></a>同步文件到github</h2><ul>
 <li>生成静态文件并发布</li>
 </ul>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo generate</span><br><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo generate</span><br><span class="line">$ hexo deploy</span><br><span class="line">// or</span><br><span class="line">$ hexo deploy -m <span class="string">&#x27;提交信息&#x27;</span></span><br></pre></td></tr></table></figure>
 
 ]]></content>
       <categories>
