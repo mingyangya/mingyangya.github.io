@@ -4,6 +4,7 @@
     <title>Git笔记</title>
     <url>/2021/10/26/Git%E7%AC%94%E8%AE%B0/</url>
     <content><![CDATA[<p>介绍一下常用的Git命令，其中包含add、commit、push、branch、checkout、mv、pull等</p>
+<span id="more"></span>
 <ol>
 <li>添加文件到暂存区</li>
 </ol>
@@ -58,6 +59,52 @@
       <tags>
         <tag>Git</tag>
       </tags>
+  </entry>
+  <entry>
+    <title>Homebrew以及nginx的安装</title>
+    <url>/2021/12/18/Homebrew-nginx/</url>
+    <content><![CDATA[<p>Homebrew是MacOS上的包管理工具，可以简化 macOS 和 Linux 操作系统上软件的安装。</p>
+<span id="more"></span>
+<h1 id="Homebrew安装"><a href="#Homebrew安装" class="headerlink" title="Homebrew安装"></a>Homebrew安装</h1><ul>
+<li>官网安装（<a href="https://brew.sh/index_zh-cn%EF%BC%89">https://brew.sh/index_zh-cn）</a></li>
+</ul>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">/bin/bash -c <span class="string">&quot;<span class="subst">$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)</span>&quot;</span></span><br></pre></td></tr></table></figure>
+<p><code>安装较慢，大概率会失败。</code></p>
+<ul>
+<li>国内地址(gitee镜像)</li>
+</ul>
+<p>苹果电脑 常规安装脚本（推荐 完全体 几分钟安装完成）：</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">/bin/zsh -c <span class="string">&quot;<span class="subst">$(curl -fsSL https://gitee.com/cunkai/HomebrewCN/raw/master/Homebrew.sh)</span>&quot;</span></span><br></pre></td></tr></table></figure>
+
+<p>苹果电脑 极速安装脚本（精简版 几秒钟安装完成）：</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">/bin/zsh -c <span class="string">&quot;<span class="subst">$(curl -fsSL https://gitee.com/cunkai/HomebrewCN/raw/master/Homebrew.sh)</span>&quot;</span> speed</span><br></pre></td></tr></table></figure>
+
+<p>苹果电脑 卸载脚本：</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">/bin/zsh -c <span class="string">&quot;<span class="subst">$(curl -fsSL https://gitee.com/cunkai/HomebrewCN/raw/master/HomebrewUninstall.sh)</span>&quot;</span></span><br></pre></td></tr></table></figure>
+<p>常见错误去下方地址查看:</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">https://gitee.com/cunkai/HomebrewCN/blob/master/error.md</span><br></pre></td></tr></table></figure>
+
+<h1 id="nginx安装"><a href="#nginx安装" class="headerlink" title="nginx安装"></a>nginx安装</h1><ul>
+<li>安装</li>
+</ul>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">brew install nginx</span><br></pre></td></tr></table></figure>
+
+<ul>
+<li>启动</li>
+</ul>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">nginx</span><br></pre></td></tr></table></figure>
+
+<ul>
+<li>重启</li>
+</ul>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">nginx -s reload</span><br></pre></td></tr></table></figure>
+
+<p>参考链接：</p>
+<ol>
+<li><a href="https://www.zhihu.com/question/35928898">Homebrew安装</a></li>
+<li><a href="https://www.codeprj.com/blog/9895d31.html">ngxin命令找不到</a></li>
+</ol>
+]]></content>
   </entry>
   <entry>
     <title>什么是async</title>
@@ -293,9 +340,22 @@
       </tags>
   </entry>
   <entry>
+    <title>mkcert的使用</title>
+    <url>/2021/12/18/mkcert%E7%9A%84%E4%BD%BF%E7%94%A8/</url>
+    <content><![CDATA[<p>mkcert 是生成本地 HTTPS 加密证书的工具，一个命令就可以生成证书，不需要任何配置。</p>
+<span id="more"></span>
+<h2 id="安装"><a href="#安装" class="headerlink" title="安装"></a>安装</h2><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">brew install mkcert</span><br></pre></td></tr></table></figure>
+
+<h2 id="生成证书"><a href="#生成证书" class="headerlink" title="生成证书"></a>生成证书</h2><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">mkcert domiain domiain2 domiain3...</span><br></pre></td></tr></table></figure>
+
+<h2 id="向系统中安装证书"><a href="#向系统中安装证书" class="headerlink" title="向系统中安装证书"></a>向系统中安装证书</h2><p><code>进入证书所在文件夹中</code></p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">mkcert install</span><br></pre></td></tr></table></figure>]]></content>
+  </entry>
+  <entry>
     <title>vscode的使用</title>
     <url>/2021/09/15/vscode/</url>
     <content><![CDATA[<p>本文介绍vscode的安装和实用插件</p>
+<span id="more"></span>
 <h2 id="下载"><a href="#下载" class="headerlink" title="下载"></a>下载</h2><p>  <a href="https://code.visualstudio.com/">vscode</a></p>
 <h2 id="插件"><a href="#插件" class="headerlink" title="插件"></a>插件</h2><ul>
 <li><p>vetur &amp; vue-helper</p>
@@ -390,6 +450,7 @@
     <title>vue-time-line-npm的使用</title>
     <url>/2020/07/13/vue-time-line-npm%E7%9A%84%E4%BD%BF%E7%94%A8/</url>
     <content><![CDATA[<p>本文介绍vue-time-line-npm如何使用，包括局部使用、和全局使用。目前功能比较简单，有切页、放大、缩小、还原功能。</p>
+<span id="more"></span>
 <h2 id="安装"><a href="#安装" class="headerlink" title="安装"></a>安装</h2><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">npm install vue-time-line-npm --save</span><br><span class="line"><span class="comment"># or </span></span><br><span class="line">yarn add vue-time-line-npm</span><br></pre></td></tr></table></figure>
 
 <h2 id="全局引用"><a href="#全局引用" class="headerlink" title="全局引用"></a>全局引用</h2><figure class="highlight javascript"><table><tr><td class="code"><pre><span class="line"><span class="keyword">import</span> Vue <span class="keyword">from</span> <span class="string">&#x27;vue&#x27;</span></span><br><span class="line"><span class="keyword">import</span> TimeLine <span class="keyword">from</span> <span class="string">&#x27;vue-time-line-npm&#x27;</span></span><br><span class="line"> </span><br><span class="line">Vue.use(TimeLine, <span class="comment">/* &#123; default options with global component &#125; */</span>)</span><br></pre></td></tr></table></figure>
